@@ -18,3 +18,8 @@ function solution(str) {
   //need to add d to the new variablem so variable can hold it //to do: how to access it backward//
   //return new variable as a string
 }
+
+// another option using method//
+// function solution(str){
+//   return str.split('').reverse().join('')
+//   }
