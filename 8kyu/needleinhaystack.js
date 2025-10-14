@@ -15,6 +15,7 @@ function findNeedle(haystack) {
   //accessing array
   //i need it to loop through the array to find the string "needle"
   //if and then they find the string "needle", need to return index position
+  //[a, 2, "needle"]
   for (let i = 0; i <= haystack.length; i++) {
     if (haystack[i] === "needle") {
       return "found the needle at position " + i;
