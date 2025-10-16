@@ -19,7 +19,6 @@ function litres(time) {
   //2 hour = 1 litre
   //0.5 l * hour
   //combine time * 0.5
-  Math.floor(time * 0.5);
   //return use math.floor()
   return Math.floor(time * 0.5);
 }
