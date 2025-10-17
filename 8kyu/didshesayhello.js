@@ -20,9 +20,10 @@
 function validateHello(greetings) {
   // hey
   let Languages = ["hello", "ciao", "salut", "hallo", "hola", "ahoj", "czesc"];
-  //
+  let hellostring = greetings.toLowerCase();
+
   for (let i = 0; i < Languages.length; i++) {
-    if (greetings.includes(Languages[i])) {
+    if (hellostring.includes(Languages[i])) {
       return true;
     }
   }
