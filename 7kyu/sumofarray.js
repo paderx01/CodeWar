@@ -27,3 +27,28 @@ function repeats(arr) {
   }
   return total;
 }
+
+//another option below using hash map
+
+// function repeats(arr){
+//hash map {
+//   let count = {}
+//   for (let i = 0; i <arr.length; i++){
+//     let num = arr[i]
+//     if (count[num]) {
+//       count[num]++
+//     }
+//     else {
+//       count[num] = 1
+//     }
+//   }
+
+// let sum = 0
+// for (let key in count) {
+//   if (count [key] == 1) {
+//     sum += Number(key)
+//   }
+
+// }
+//   return sum
+// };
