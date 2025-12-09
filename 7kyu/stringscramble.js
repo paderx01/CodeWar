@@ -40,3 +40,14 @@ function scramble(str, arr) {
   } 
   return results.join("")
 };
+
+//another option how to solved it below:
+function scramble(str, arr) {
+
+  let results = ""
+  for (let i = 0; i <arr.length; i++) {
+    let newIndex = arr.indexOf(i)
+    results += str[newIndex]
+  }
+ return results
+};
