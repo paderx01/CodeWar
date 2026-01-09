@@ -6,7 +6,7 @@
 // Your Task:
 // You will get an array as input with time durations as string in the following format: HH:MM:SS. Each duration represents the time taken by Santa to deliver a present. Determine whether he can do it in 24 hours or not. In case the time required to deliver all of the presents is exactly 24 hours, Santa can complete the delivery ;-) .
 
-//solved below:
+//solved below
 
 function determineTime (durations) {
   let totalTime = 0
@@ -19,5 +19,6 @@ function determineTime (durations) {
     totalTime +=  hours * 3600 + minutes * 60 + seconds
   } 
   return totalTime <= 24 * 3600 
+  //solved
   
 }
